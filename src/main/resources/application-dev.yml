@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/plantcare_db
+    url: jdbc:postgresql://plantcare-postgres:5432/plantcare_db
     username: postgres
-    password: 123
+    password: postgrespassword
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
